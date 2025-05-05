@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel do Sistema</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="dashboard-container">
+        <h2>Cadastro de Produtos</h2>
+        
+        <form id="productForm">
+            <div class="input-container">
+                <label for="productName">Nome do Produto:</label>
+                <input type="text" id="productName" required>
+            </div>
+            <div class="input-container">
+                <label for="productPrice">Preço Unitário:</label>
+                <input type="number" id="productPrice" step="0.01" min="0" required>
+            </div>
+            <div class="input-container">
+                <label for="productQuantity">Quantidade:</label>
+                <input type="number" id="productQuantity" min="1" required>
+            </div>
+            <div class="input-container">
+                <label for="productDate">Data de Inserção:</label>
+                <input type="date" id="productDate" required>
+            </div>
+            <button type="submit">Cadastrar Produto</button>
+        </form>
+
+        <button id="logoutBtn">Sair</button>
+
+        <button id="reportBtn">Relatório de Produtos</button>
+        
+        
+    </div>
+</body>
+</html>

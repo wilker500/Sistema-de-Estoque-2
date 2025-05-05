@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(to right, #141E30, #243B55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dashboard-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(12px);
+    width: 400px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+    color: #fff;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+button {
+    background: linear-gradient(to right, #06beb6, #48b1bf);
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    margin-top: 15px;
+    width: 100%;
+}
+
+button:hover {
+    background: linear-gradient(to right, #0cbaba, #380036);
+    transform: scale(1.05);
+}
+
+#productList {
+    list-style: none;
+    margin-top: 15px;
+    padding: 0;
+}
+
+#logoutBtn {
+    background: #e74c3c;
+}

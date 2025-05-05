@@ -1,0 +1,86 @@
+/* Mantendo a mesma paleta de cores */
+body {
+    background: linear-gradient(to right, #141E30, #243B55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Estilização do container principal */
+.report-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(12px);
+    width: 80%;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Título principal */
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Tabela estilizada */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Cabeçalho da tabela */
+th {
+    background: linear-gradient(to right, #06beb6, #48b1bf);
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+}
+
+/* Linhas da tabela */
+td {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px;
+}
+
+/* Botões estilizados */
+button {
+    background: linear-gradient(to right, #06beb6, #48b1bf);
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: linear-gradient(to right, #0cbaba, #380036);
+    transform: scale(1.05);
+}
+
+/* Botão de voltar */
+#backBtn {
+    background: #e74c3c;
+}
+
+#backBtn:hover {
+    background: #c0392b;
+}
+
+/* Valor total do estoque */
+#totalStockValue {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
